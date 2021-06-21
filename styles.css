@@ -3,6 +3,43 @@ body {
     padding-top: 85px;
 }
 
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    margin: 30px 0 60px 0;
+}
+.descrip {
+    border: 1px solid red;
+}
+
+.cuadritos {
+    border: 1px solid green;
+}
+
+
+.footer-piola {
+    background-color: black;
+    color: blanchedalmond; 
+    text-align: center;
+}
+
+.footer-piola a  {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-piola a:visited {
+    color: teal;
+}
+
+.footer-piola a:hover {
+    color: tomato;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .navbar {
     background: #e3edfd;
     font-family: 'Caveat', cursive;
@@ -24,6 +61,8 @@ body {
 .main-formularios {
     margin-top: 100px;
 }
+
+
 
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {

@@ -1,71 +1,167 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.83.1">
-  <title>HOME - VENTA DE ROPA DE NIÑOS Y NIÑAS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME WENEME 2</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap core CSS -->
-  <link href="bootstrap.min.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="bootstrap-icons.css"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-  <!-- Custom styles for this template -->
-  <link href="carousel.css" rel="stylesheet">
-
-
-
-  <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
-
 <body>
-github
-bitbucket
-gitlab
-
-  <header>
-    <nav class="navbar navbar-expand-md navbar-ligth fixed-top bg-ligth">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">WENEME</a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="formulario-de-registro.html">Registrarme</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="detalle-producto.html">Detalle de producto</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="formulario-de-producto.html" tabindex="-1" aria-disabled="true">Productos</a>
-            </li>
-          </ul>
-
-          <i class="bi bi-search"></i>
-
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">WENEME</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="formulario-de-registro.html">Registrarme</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="detalle-producto.html">Detalle de producto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="formulario-de-producto.html" tabindex="-1" aria-disabled="true">Productos</a>
+                    </li>
+                  </ul>
+                  <ul class="navbar-nav mb-2 mb-md-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"> <i class="bi bi-heart" title="Ver favoritos"></i> </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"> <i class="bi bi-cart-plus-fill" title="Ver Carrito"></i></a>
+                    </li>
+                  </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
 
 
-  <h1>DETALLE DE PRODUCTO</h1>
+      <section id="nombre-producto">
+          <div class="container">
+              <h1> Detalle del producto Sarasa</h1>
+          </div>
+      </section>
 
-  <!-- <script src="bootstrap.bundle.min.js"></script> -->
+      <section id="descripcion">
+        <div class="container descrip">
+            <div class="row">
+              <div class="col-sm-6 cuadritos">
+                <figure class="figure">
+                    <img src="./img/V2115711_BN_1.jpg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                  </figure>
+              </div>
+              <div class="col-xs-12 col-sm-6 cuadritos">
+                <div >
+                    <h4 class="mb-3">Billing address</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquam praesentium quam eaque rem sint, explicabo nulla at nemo nisi harum iure maiores magni illo dolores repudiandae laboriosam, rerum dolor.</p>
+
+                    <form class="needs-validation" novalidate="">
 
 
+                      <h4 class="mb-3">Payment</h4>
+            
+                      <div class="my-3">
+                        <div class="form-check">
+                          <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                          <label class="form-check-label" for="credit">Credit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="debit">Debit card</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="paypal">PayPal</label>
+                        </div>
+                      </div>
+            
+                      <div class="row gy-3">
+                        <div class="col-md-6">
+                          <label for="cc-name" class="form-label">Name on card</label>
+                          <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                          <small class="text-muted">Full name as displayed on card</small>
+                          <div class="invalid-feedback">
+                            Name on card is required
+                          </div>
+                        </div>
+            
+                        <div class="col-md-6">
+                          <label for="cc-number" class="form-label">Credit card number</label>
+                          <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Credit card number is required
+                          </div>
+                        </div>
+            
+                        <div class="col-md-3">
+                          <label for="cc-expiration" class="form-label">Expiration</label>
+                          <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Expiration date required
+                          </div>
+                        </div>
+            
+                        <div class="col-md-3">
+                          <label for="cc-cvv" class="form-label">CVV</label>
+                          <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                          <div class="invalid-feedback">
+                            Security code required
+                          </div>
+                        </div>
+                      </div>
+            
+                      <hr class="my-4">
+            
+                      <button class="w-100 btn btn-primary btn-lg" type="submit">Añadir al carrito</button>
+                    </form>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+
+
+      <footer class="footer-piola container-fluid my-4 py-4">
+        <p>Author: Hege Refsnes</p>
+        <p><a href="listado-productos.html">Otra pagina</a></p>
+      </footer>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
-
 </html>
