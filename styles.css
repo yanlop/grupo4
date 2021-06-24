@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 body {
-    padding-top: 85px;
+ 
 }
 
+
+.home-banner {
+    background-image: url("./imgs/home.jpeg");
+    background-color: grey;
+    height: 700px;
+    margin: 0 0 40px 0;
+}
+
+.home-banner img {
+   
+}
 
 h1 {
     font-family: 'Merriweather', serif;
@@ -17,6 +28,9 @@ h1 {
     border: 1px solid green;
 }
 
+.circulitos {
+    height: 150px;
+}
 
 .footer-piola {
     background-color: black;
@@ -40,11 +54,12 @@ h1 {
     text-decoration: underline;
 }
 
-.navbar {
-    background: #e3edfd;
-    font-family: 'Caveat', cursive;
-    font-size: 24px;
+ .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    color: red!important;
 }
+
 
 .nav-link.active {
     color: #6c757d;
