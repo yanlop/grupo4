@@ -6,14 +6,12 @@ body {
 
 .home-banner {
     background-image: url("./imgs/home.jpeg");
+    background-size: 100% 100%;
     background-color: grey;
-    height: 700px;
+    height: 600px;
     margin: 0 0 40px 0;
 }
 
-.home-banner img {
-   
-}
 
 h1 {
     font-family: 'Merriweather', serif;
@@ -83,4 +81,45 @@ h1 {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+}
+
+.row {
+    justify-content: center;
+}
+
+
+.foto-ropa {
+    height: 320px;
+
+}
+
+
+.tipo-producto , .precio {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.precio {
+color: grey;
+}
+
+.card {
+    /* max-width: 300px; */
+    max-height: 500px;
+  justify-content: flex-start;
+}
+
+.col-md-6 {
+    max-width:500px;
+    margin-left: 50px;
+}
+
+.card-center {
+    max-width: 350px;
+  
+}
+
+h2 {
+    text-align: center;
+    font-size: 100px;
 }
