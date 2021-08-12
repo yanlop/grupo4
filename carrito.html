@@ -62,81 +62,65 @@
   </header>
 
 
-  <section id="nombre-producto">
-    <div class="container">
-      <h1> BODY ROMA </h1>
-    </div>
-  </section>
+<!-- EL CARRITO -->
 
-  <section id="descripcion">
-    <div class="container descrip">
-      <div class="row">
-        <div class="col-sm-6 cuadritos">
-          <figure class="figure">
-            <img src="imgs/bodynene.png" class="figure-img img-fluid rounded" alt="body nene">
-            <figcaption class="figure-caption"></figcaption>
-          </figure>
+<hr>
+
+  <div class="container">
+
+    <div class="row">
+        <div class="col-9 listado">
+            <table class="table w-75">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Descripcion</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><img src="./imgs/parkanene.jpg" alt="" class="img-fluid thumb"></th>
+                    <td>Body Nene</td>
+                    <td>1</td>
+                    <td>1500</td>
+                  </tr>
+                
+                </tbody>
+              </table>
         </div>
-        <div class="col-xs-12 col-sm-6 cuadritos">
-          <div>
-            
-            <h5 class="my-4">Precio: <span class="text-success">$1.700</span></h5>
-            <hr>
-            <p class="m-5 p-4">Body para bebes, poliester
-            </p>
-
-            <div class="row my-4">
-              <div class="col-3 text-right">TALLE</div>
-              <div class="col-3">
-                <fieldset>
-                <select name="cantidad" id="cantidad">
-                <option value="1">00-03</option>
-                <option value="2">01</option>
-                <option value="3">02</option>
-                <option value="4">03-06</option>
-                <option value="5">06-09</option>
-                <option value="6">09-12</option>
-                <option value="7">12-18</option>
-                <option value="8">12-24</option>
-                <option value="9">0</option>
-                </select>
-                </fieldset></div>
-              <div class="col-3 text-right">CANTIDAD</div>
-              <div class="col-3"><input type="range" class="form-range" id="customRange1"></div>
-
-              <div class="row">
-                <div class="col mt-4">
-                  <button class="w-100 btn btn-primary btn-lg" type="submit">Añadir al carrito</button>
+        <div class="col-3 totales">
+            <div class="card w-75">
+                <div class="card-body">
+                  <h5 class="card-title">Subtotal</h5>
+                  <p class="card-text">
+                    <div class="my-3">
+                        <div class="form-check">
+                          <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                          <label class="form-check-label" for="credit">Tarjeta de Credito</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="debit">Tarjeta de Debito</label>
+                        </div>
+                        <div class="form-check">
+                          <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                          <label class="form-check-label" for="paypal">Mercado Pago</label>
+                        </div>
+                      </div>
+                  </p>
+                  <p>TOTAL:</p>
+                  <a href="#" class="btn btn-primary">COMPRAR</a>
                 </div>
               </div>
-
-              <div class="row p-5 iconitos">
-                <div class="col-4">
-                    <span class="material-icons">
-                      flight_takeoff
-                      </span>
-                    
-                    Envios Nacionales
-                </div>
-                <div class="col-4">
-                  <span class="material-icons">
-                    help_center
-                    </span>
-                    FAQs
-                </div>
-                <div class="col-4">
-                  <span class="material-icons">
-                    payment
-                    </span>
-                    Formas de Pago
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+
     </div>
-  </section>
+
+
+
+  </div>
 
 
 
