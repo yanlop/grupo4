@@ -5,11 +5,11 @@ body {
 
 
 .home-banner {
-    background-image: url("./imgs/home.jpeg");
-    background-size: 100% 100%;
-    background-color: grey;
-    height: 600px;
-    margin: 0 0 40px 0;
+  background-image: url("./imgs/home.jpeg"); /* The image used */
+  height: 150px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
 }
 
 
@@ -37,11 +37,11 @@ h1 {
     margin-top: 15px;
 }
 .descrip {
-    border: 1px solid red;
+  /*  border: 1px solid red;*/
 }
 
 .cuadritos {
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 .circulitos {
@@ -102,6 +102,18 @@ h1 {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+
+    .cuadritos .img-fluid {
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .home-banner {
+        height: 500px; /* You must set a specified height */
+        
+    }
+
+
 }
 
 .row {
@@ -125,18 +137,18 @@ color: grey;
 }
 
 .card {
-    /* max-width: 300px; */
-    max-height: 500px;
-  justify-content: flex-start;
+    max-width: 300px;
+    /*max-height: 500px;*/
+  /*justify-content: flex-start;*/
 }
 
 .col-md-6 {
-    max-width:500px;
-    margin-left: 50px;
+   /* max-width:500px;
+    margin-left: 50px;*/
 }
 
 .card-center {
-    max-width: 350px;
+    /*max-width: 350px;*/
   
 }
 
