@@ -1,7 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 body {
  
 }
+
+
+
+#listado .btn {
+    background-color: pink;
+    color: darkred;
+    border: none;
+    margin: 0 20px;
+}
+
+#listado .btn:hover {
+    background-color: darkmagenta;
+    color: white;
+}
+
+
 
 
 .home-banner {
@@ -17,6 +35,20 @@ h1 {
     
     font-weight: 900;
     margin: 30px 0 60px 0;
+}
+
+.fav {
+    margin: 10px;
+    position: absolute;
+    color:pink;
+    text-decoration: none;
+    
+}
+
+
+.fav:hover {
+    color: red;
+
 }
 
 .iconitos {
@@ -48,6 +80,9 @@ h1 {
     height: 150px;
 }
 
+.img-carrito {
+    width: 100px;
+}
 .footer-weeneemy {
     background-color: black;
     color: blanchedalmond; 
@@ -71,9 +106,9 @@ h1 {
 }
 
  .navbar-brand {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-size: 32px;
-    color: red!important;
+    color: darkred !important;;
 }
 
 
@@ -138,6 +173,7 @@ color: grey;
 
 .card {
     max-width: 300px;
+    border: none;
     /*max-height: 500px;*/
   /*justify-content: flex-start;*/
 }

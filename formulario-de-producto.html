@@ -1,26 +1,27 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.83.1">
-  <title>HOME - VENTA DE ROPA DE NIÑOS Y NIÑAS</title>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-  <!-- Bootstrap core CSS -->
-  <link href="bootstrap.min.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="bootstrap-icons.css"> -->
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
-  <!-- Custom styles for this template -->
-  <link href="carousel.css" rel="stylesheet">
-
-
-  <link rel="stylesheet" href="./styles.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.83.1">
+    <title>HOME - VENTA DE ROPA DE NIÑOS Y NIÑAS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="bootstrap-icons.css"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  
+  
+    <link rel="stylesheet" href="./styles.css">
+  </head>
 
 <body>
 
@@ -60,205 +61,196 @@
       </div>
     </nav>
   </header>
-  <div class="container">
 
-    <main class="main-formularios">
+  <main>
 
-      <div class="row g-5">
-        <div class="col-md-7 col-lg-8">
-          <h4 class="mb-3">Agregar producto</h4>
-          <form class="needs-validation" novalidate>
-            <div class="row g-3">
-              <div class="col-sm-12">
-                <label for="firstName" class="form-label">Nombre del producto</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-                <div class="invalid-feedback">
-                  Valid first name is required.
-                </div>
-              </div>
+    <div class="container">
 
-              <div class="col-sm-12">
-                <label for="lastName" class="form-label">Imágenes</label>
-                <input type="file" class="form-control" multiple="true" accept="image/*" id="lastName" placeholder=""
-                  value="" required>
-                <div class="invalid-feedback">
-                  Valid last name is required.
-                </div>
-              </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
 
-              <div class="col-12">
-                <label for="username" class="form-label">Precio</label>
-                <div class="input-group has-validation">
-                  <span class="input-group-text">$</span>
-                  <input type="number" class="form-control" id="username" placeholder="111" required>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Artículo</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Cantidad</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>
+                  
+                  <figure class="figure img-carrito">
+                    <img src="imgs/bodynene.png" class="figure-img img-fluid rounded" alt="body nene">
+                    <figcaption class="figure-caption"></figcaption>
+                  </figure>
+
+                </td>
+                <td>Body Roma</td>
+                <td>$1400</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>
+                  <figure class="figure img-carrito">
+                    <img src="imgs/sweaternene.jpg" class="figure-img img-fluid rounded" alt="body nene">
+                    <figcaption class="figure-caption"></figcaption>
+                  </figure>
+
+                </td>
+                <td>Sweater Tejido</td>
+                <td>$1500</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>
+                  
+                  <figure class="figure img-carrito">
+                    <img src="imgs/parkanena.png" class="figure-img img-fluid rounded" alt="body nene">
+                    <figcaption class="figure-caption"></figcaption>
+                  </figure>
+                </td>
+                <td>Parka Juli</td>
+                <td>$2700</td>
+              </tr>
+            </tbody>
+          </table>
+          <hr class="my-4">
+          <table id="shopping-cart-totals-table">
+            <colgroup><col>
+            <col width="1">
+            </colgroup><tfoot>
+                <tr>
+        <td style="" class="a-right" colspan="1">
+            <strong>Total general</strong>
+        </td>
+        <td style="" class="a-right">
+            <strong><span class="price">$&nbsp;6.590</span></strong>
+        </td>
+    </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+        <td style="" class="a-right" colspan="1">
+            Subtotal    </td>
+        <td style="" class="a-right">
+            <span class="price">$&nbsp;6.590</span>    </td>
+    </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+            <h4 class="mb-3">Datos para la compra</h4>
+            <form class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="firstName" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
                   <div class="invalid-feedback">
-                    Your username is required.
+                    Valid first name is required.
+                  </div>
+                </div>
+      
+                <div class="col-sm-6">
+                  <label for="lastName" class="form-label">Nombre y Apellido</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Este campo es obligatorio
+                  </div>
+                </div>
+      
+                <div class="col-12">
+                  <label for="username" class="form-label">Usuario</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="username" placeholder="Usuario" required>
+                  <div class="invalid-feedback">
+                      El usuario es obligatorio.
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-12">
+                  <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                  <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                  <div class="invalid-feedback">
+                    Please enter a valid email address for shipping updates.
+                  </div>
+                </div>
+      
+                <div class="col-12">
+                  <label for="address" class="form-label">Direccion</label>
+                  <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                  <div class="invalid-feedback">
+                    Por favor ingrese la direccion de envío.
+                  </div>
+                </div>
+      
+                <div class="col-12">
+                  <label for="address2" class="form-label">Dirección de Facturación <span class="text-muted">(Optional)</span></label>
+                  <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                </div>
+      
+                <div class="col-md-5">
+                  <label for="country" class="form-label">Pais</label>
+                  <select class="form-select" id="country" required>
+                    <option value="">Seleccione...</option>
+                    <option>Argentina</option>
+                  </select>
+                  <div class="invalid-feedback">Por favor seleccione un pais.
+                  </div>
+                </div>
+      
+                <div class="col-md-4">
+                  <label for="state" class="form-label">Provincia</label>
+                  <select class="form-select" id="state" required>
+                    <option value="">Seleccione...</option>
+                    <option>Buenos Aires</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Seleccione una provincia.
+                  </div>
+                </div>
+      
+                <div class="col-md-3">
+                  <label for="zip" class="form-label">Código Postal</label>
+                  <input type="text" class="form-control" id="zip" placeholder="" required>
+                  <div class="invalid-feedback">
+                    El código postal es obligatorio.
                   </div>
                 </div>
               </div>
-
-              <label for="username" class="form-label">Métodos de pago</label>
-
-              <div class="col-3">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="save-info">
-                  <label class="form-check-label" for="save-info"><img src="imgs/amex.png" height="30"
-                      alt="amex"></label>
-                </div>
+      
+              <hr class="my-4">
+      
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="same-address">
+                <label class="form-check-label" for="same-address">La dirección de envío es la misma que la de facturación</label>
               </div>
-
-              <div class="col-3">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="save-info">
-                  <label class="form-check-label" for="save-info"><img src="imgs/master.png" height="40"
-                      alt="master"></label>
-                </div>
+      
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="save-info">
+                <label class="form-check-label" for="save-info">Guardar esta información para futuros envíos</label>
               </div>
+              <hr class="my-4">
+              <button class="w-100 btn btn-info btn-lg" type="submit">Finalizar la compra</button>
+            </form>
 
-              <div class="col-3">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="save-info">
-                  <label class="form-check-label" for="save-info"> <img src="imgs/visa.png" height="30"
-                      alt="visa"></label>
-                </div>
-              </div>
 
-              <div class="col-3">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="save-info">
-                  <label class="form-check-label" for="save-info"><img src="imgs/mp.png" alt="mercado pago"
-                      height="20"></label>
-                </div>
-              </div>
-
-              <div class="col-12">
-                <label for="email" class="form-label">Descripción <span class="text-muted">(Opcional)</span></label>
-                <textarea class="form-control" id="email" rows="6" cols="40" placeholder="Descripción del producto">
-            </textarea>
-                <div class="invalid-feedback">
-                  Please enter a valid email address for shipping updates.
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <label for="country" class="form-label">Color 1</label>
-                <select class="form-select" id="country" required>
-                  <option value="">Elegir color...</option>
-                  <option>Rojo</option>
-                  <option>Amarillo</option>
-                  <option>Azul</option>
-                  <option>Verde</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please select a valid country.
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <label for="state" class="form-label">Color 2</label>
-                <select class="form-select" id="state" required>
-                  <option value="">Elegir color...</option>
-                  <option>Rojo</option>
-                  <option>Amarillo</option>
-                  <option>Azul</option>
-                  <option>Verde</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please provide a valid state.
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <label for="state" class="form-label">Color 3</label>
-                <select class="form-select" id="state" required>
-                  <option value="">Elegir color...</option>
-                  <option>Rojo</option>
-                  <option>Amarillo</option>
-                  <option>Azul</option>
-                  <option>Verde</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please provide a valid state.
-                </div>
-              </div>
-
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-2">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="same-address">
-                  <label class="form-check-label" for="same-address">XS</label>
-                </div>
-              </div>
-
-              <div class="col-2">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="save-info">
-                  <label class="form-check-label" for="save-info">S</label>
-                </div>
-              </div>
-
-              <div class="col-2">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="save-info">
-                  <label class="form-check-label" for="save-info">M</label>
-                </div>
-              </div>
-
-              <div class="col-2">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="save-info">
-                  <label class="form-check-label" for="save-info">L</label>
-                </div>
-              </div>
-
-              <div class="col-2">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="save-info">
-                  <label class="form-check-label" for="save-info">XL</label>
-                </div>
-              </div>
-
-              <div class="col-2">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="save-info">
-                  <label class="form-check-label" for="save-info">XXL</label>
-                </div>
-              </div>
-            </div>
-
-            <hr>
-
-            <div class="col-12">
-              <label for="email" class="form-label">Cambios y devoluciones<span
-                  class="text-muted">(Opcional)</span></label>
-              <textarea class="form-control" id="email" rows="6" cols="40" placeholder="Descripción del producto">Todos los productos que adquieras a través pueden ser cambiados en un plazo máximo de treinta (30) días corridos o devueltos en un plazo máximo diez (10) días corridos a partir de la fecha de recepción del pedido.
-          </textarea>
-              <div class="invalid-feedback">
-                Please enter a valid email address for shipping updates.
-              </div>
-            </div>
-            <br>
-
-            <div class="col-12">
-              <label for="email" class="form-label">Metodo Envios<span class="text-muted">(Opcional)</span></label>
-              <textarea class="form-control" id="email" rows="6" cols="40" placeholder="Descripción del producto">
-Envíos a todo el país:
-- Correo Andreani a Domicilio: 3 a 10 días hábiles.
-- Correo Andreani a Sucursal: 3 a 10 días hábiles.
-- Moto Chazki (solo CABA y GBA): 2 a 5 días hábiles.
-          </textarea>
-              <div class="invalid-feedback">
-                Please enter a valid email address for shipping updates.
-              </div>
-            </div>
-
-    </main>
+        </div>
+      </div>
 
 
 
-    
+
+    </div>
+
+
+
+
 
     <!-- FOOTER -->
 
